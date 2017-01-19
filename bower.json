@@ -1,0 +1,22 @@
+{
+  "name": "filmscroller",
+  "description": "A films scroller with jQuery.",
+  "main": "index.js",
+  "authors": [
+    "Juan Carlos Álvarez Viedma <juanca.alvarez.viedma@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7"
+  }
+}

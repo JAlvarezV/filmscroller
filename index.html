@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Film Scroller</title>
+	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/anim.css">
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="js/films.js"></script>
+	<script src="js/drawer.js"></script>
+	<script src="js/controller.js"></script>
+</head>
+<body>
+<div class="modal"></div>
+<div class="container-fluid">
+	<div class="row">
+		<div id="f-content">
+			<h1 id="title">Film Scroller</h1>
+			<img src="images/portada.png">
+			<form>
+				<input type="text" id="s-input" name="search" placeholder="Insert the film title you're looking for">
+				<input id="s-button" type="submit" value="Search!">
+			</form>
+
+		</div>
+	</div>
+	<div id="films-content" class="row">
+	</div>
+	<p id="errors"></p>
+</div>
+
+</body>
+</html>

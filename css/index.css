@@ -1,0 +1,79 @@
+*{
+	padding: 0;
+	margin: 0;	
+}
+
+div{
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+	min-height: 400px;
+	max-height: 400px;
+}
+
+body {
+	background-color: rgb(153,217,234);
+}
+
+#f-content{
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+#title {
+	color: white;
+	font-size: 7em;
+	text-align: center;
+}
+
+#f-content img{
+	display: block;
+	align-content: center;
+	width: 25%;
+	height: 25%;
+	margin: 0 auto;
+}
+
+#f-content form input[type="text"] {
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+	padding: 10px;
+	border-color: black;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 2em;
+	margin-bottom: 25px;	
+}
+
+#f-content form input[type="submit"]{
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+	padding: 10px;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 2em;
+	color: white;
+	background-color: orange;
+}
+
+p#errors{
+	color: red;
+	text-align: center;
+	font-size: 2.5em;
+	margin-top: 25px;
+}
+
+.f-card {
+	padding: 15px;
+	margin-bottom: 25px;
+}
+
+.subtitle {
+	font-size: 1.15em;
+	text-align: center;
+}

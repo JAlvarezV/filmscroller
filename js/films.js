@@ -1,7 +1,7 @@
 function getFilms() {
 	var title = $('#s-input').val();
 	if(title !== "") {
-		$.getJSON("http://www.omdbapi.com/?s=" + title + "&page=" + page, function (data) {
+		$.getJSON("https://www.omdbapi.com/?s=" + title + "&page=" + page, function (data) {
 			if (data["Response"] == "True") {
 				totalPages = Math.ceil(data["totalResults"] / 10);
 				$('#f-content').fadeOut(150);
